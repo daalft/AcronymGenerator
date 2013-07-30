@@ -57,8 +57,8 @@ If you don't know the Ruby programming language at all or are not sure how to us
 * Download the file **AcroGen** from the source folder in this repository or copy paste it into an empty file and save it as AcroGen.rb
 * Go back to your main.rb file.
 * Add the following (for example):
-* g = Acronyms::AcronymGenerator.new([["Germany", "France", "Belgium"],["Conference", "Meeting"],["Computational"],["Linguistics"]], 3)
-* g.combine(8, "output.txt")
+* `g = Acronyms::AcronymGenerator.new([["Germany", "France", "Belgium"],["Conference", "Meeting"],["Computational"],["Linguistics"]], 3)`
+* `g.combine(8, "output.txt")`
 * Save all files
 * Open the command line
 * Enter: ruby main.rb
