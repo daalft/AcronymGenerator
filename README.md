@@ -55,6 +55,7 @@ If you don't know the Ruby programming language at all or are not sure how to us
 * Enter the following: require './AcroGen'
 * Save the file as **main.rb** (without any other extension! Set the extension to "all" before saving)
 * Download the file **AcroGen** from the source folder in this repository or copy paste it into an empty file and save it as AcroGen.rb
+* Put both files into the same folder
 * Go back to your main.rb file.
 * Add the following (for example):
 * `g = Acronyms::AcronymGenerator.new([["Germany", "France", "Belgium"],["Conference", "Meeting"],["Computational"],`
@@ -62,6 +63,9 @@ If you don't know the Ruby programming language at all or are not sure how to us
 * `g.combine(8, "output.txt")`
 * Save all files
 * Open the command line
+* Navigate to the folder containing the files
+* Example: the files are in c:/files
+* Enter: cd c:/files
 * Enter: ruby main.rb
 * This should generate a file named "output.txt"
 * Open this file with any text editor and marvel at the results
